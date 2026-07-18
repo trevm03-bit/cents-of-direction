@@ -6,6 +6,8 @@
 <title>Cents of Direction — Debt Payoff Calculator + Dashboard</title>
 <meta name="description" content="A debt payoff calculator with 4 methods to choose from — Snowball, Avalanche, Credit Score Focus, or your own order. The What-If Lab automatically compares 3 of them side by side. Live Dashboard, Progress tracker. 100% Google Sheets." />
 <!-- Lemon Squeezy checkout: https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582 -->
+<!-- TEMP-PAUSED 2026-07-18: checkout intentionally disabled during the Cents of Direction revamp -->
+<!-- (all 5 buttons below carry data-temp-checkout-url with the original href; revert by restoring href+class+label, then remove this comment block) -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   tailwind.config = {
@@ -69,8 +71,8 @@
         <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
         <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
       </button>
-      <a href="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="lemonsqueezy-button hidden sm:inline-flex items-center rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 text-sm font-bold px-4 py-2 shadow-soft transition-colors">
-        Get the Calculator
+      <a href="#pricing" aria-disabled="true" data-temp-checkout-url="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="pointer-events-none opacity-60 cursor-not-allowed hidden sm:inline-flex items-center rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 text-sm font-bold px-4 py-2 shadow-soft transition-colors">
+        Back Soon
       </a>
     </div>
   </div>
@@ -94,8 +96,8 @@
           Snowball, Avalanche, Credit Score Focus, or your own order — pick one on My Plan and watch your debt-free date, total interest, and savings update instantly. Not sure which to choose? The What-If Lab tab automatically compares Snowball, Avalanche, and Credit Score Focus side by side for your real numbers.
         </p>
         <div class="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <a href="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="lemonsqueezy-button inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-7 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
-            I want this — $24+
+          <a href="#pricing" aria-disabled="true" data-temp-checkout-url="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="pointer-events-none opacity-60 cursor-not-allowed inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-7 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
+            Back Soon — Revamping!
           </a>
           <a href="#inside" class="inline-flex items-center gap-1.5 text-sm font-semibold text-bg-900 dark:text-bg-100 hover:text-teal-500">
             See what's inside
@@ -300,8 +302,9 @@
       <div class="reveal mt-8 bg-white dark:bg-bg-950 rounded-2xl shadow-soft dark:shadow-softd max-w-md mx-auto p-6 sm:p-8">
         <p class="text-4xl font-extrabold text-bg-900 dark:text-white">$24<span class="text-lg font-semibold text-bg-200 align-top">+</span></p>
         <p class="mt-2 text-sm text-bg-200">You set the exact amount at checkout — $24 or more. Enter your price in the secure Lemon Squeezy window.</p>
-        <a href="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="lemonsqueezy-button mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-6 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
-          I want this
+        <p class="mt-3 text-sm font-semibold text-amber-600 dark:text-amber-400">We're mid-revamp — checkout is paused for a few days. Check back soon, or follow along on Pinterest.</p>
+        <a href="#pricing" aria-disabled="true" data-temp-checkout-url="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="pointer-events-none opacity-60 cursor-not-allowed mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-6 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
+          Back Soon — Revamping!
         </a>
         <p class="mt-3 text-xs text-bg-200">Instant access after checkout. Secure payment via Lemon Squeezy.</p>
         <p class="mt-4 pt-4 border-t border-bg-100 dark:border-bg-800 text-xs text-bg-200">
@@ -315,8 +318,8 @@
   <section class="max-w-6xl mx-auto px-5 sm:px-8 py-16 md:py-20 text-center">
     <h2 class="reveal text-2xl sm:text-3xl font-extrabold text-bg-900 dark:text-white">Ready to see the math?</h2>
     <p class="reveal mt-3 text-bg-200 max-w-md mx-auto">One live sheet. Four methods. Zero judgment about the number.</p>
-    <a href="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="lemonsqueezy-button reveal mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-8 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
-      Get Cents of Direction — $24+
+    <a href="#pricing" aria-disabled="true" data-temp-checkout-url="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="pointer-events-none opacity-60 cursor-not-allowed reveal mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-teal-500 hover:bg-teal-400 text-bg-900 font-bold px-8 py-3.5 shadow-soft transition-transform hover:-translate-y-0.5">
+      Back Soon — Revamping!
     </a>
   </section>
 
@@ -335,8 +338,8 @@
     <p class="font-semibold text-bg-900 dark:text-white">Cents of Direction</p>
     <p class="text-bg-200">$24+ · Instant access</p>
   </div>
-  <a href="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="lemonsqueezy-button shrink-0 inline-flex items-center rounded-full bg-teal-500 text-bg-900 font-bold text-sm px-5 py-2.5 shadow-soft">
-    Buy now
+  <a href="#pricing" aria-disabled="true" data-temp-checkout-url="https://pixelsandpagesco.lemonsqueezy.com/checkout/buy/ba9c4199-b1da-4843-b6dd-a8a29221a582?embed=1" class="pointer-events-none opacity-60 cursor-not-allowed shrink-0 inline-flex items-center rounded-full bg-teal-500 text-bg-900 font-bold text-sm px-5 py-2.5 shadow-soft">
+    Back Soon
   </a>
 </div>
 
